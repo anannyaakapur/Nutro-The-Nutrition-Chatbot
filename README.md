@@ -2,17 +2,19 @@
 # Nutrition ChatBot
 
 ## Project Overview
-This project is a web-based chatbot application. It includes a simple yet interactive user interface for a nutrition chatbot, styled using CSS and powered by JavaScript. Created for CP2 @ CCA
+This project is a web-based chatbot application. It includes a simple yet interactive UI for a nutrition chatbot, styled using CSS and powered by JavaScript. Created for Computational Practices 2 (Fall 2023) at CCA.
 
 ## Features
+- By entering the name of a food item, the bot tells the user the shelf life of the item along with what signs of spoilage to look out for
 - Interactive chat interface
-- API integration for dynamic responses
-- Responsive design for various device sizes
+- Open AI API integration for dynamic and informative responses
+- Continuous, context-aware conversations: After getting food safety info about a food item, the user can ask follow-up questions about recipes etc.
 
 ## Technologies Used
 - HTML
 - CSS (with Google Fonts)
 - JavaScript
+- IDE used: VS Code
 
 ## Setup
 To run this chatbot on your local machine:
@@ -27,11 +29,4 @@ To run this chatbot on your local machine:
 - Enter your queries regarding any food products in the chat input box and press send.
 - The chatbot will respond based on the implemented logic and API responses.
 - Context is kept, can ask questions based on previously asked questions and context
-
-## Customization
-To customize the chatbot:
-
-- Modify `script.js` to change the chatbot's logic or API integration.
-- Update `style.css` to alter the appearance of the chatbot interface.
-- Edit `index.html` to change the structure of the web page.
 
